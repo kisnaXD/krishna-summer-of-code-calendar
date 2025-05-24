@@ -10,7 +10,7 @@ const startDate = new Date('2025-05-24');
         let progressData = JSON.parse(localStorage.getItem('progressData')) || {};
         let currentPage = 1;
         const predefinedNotes = {
-            '2025-05-24': "Revision of arrays started \n\n- Merge Sort ✅ \n- Quick Sort ✅ \n- Second Largest Element ✅ \n- Rotate Array K Times ✅",
+            '2025-05-24': "Revision of arrays started \n\n- Merge Sort ✅ \n- Quick Sort ✅ \n- Second Largest Element ✅ \n- Remove duplicates from sorted array ✅",
             '2025-05-25': "We're not there yet",
             '2025-05-26': "We're not there yet",
             '2025-05-27': "We're not there yet",
