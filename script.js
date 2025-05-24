@@ -1,0 +1,323 @@
+const startDate = new Date('2025-05-24');
+        const currentDate = new Date('2025-05-24');
+        const days = 50;
+        const daysPerPage = 7;
+        const totalPages = Math.ceil(days / daysPerPage);
+        const calendar = document.querySelector('.calendar');
+        const prevPage = document.getElementById('prev-page');
+        const nextPage = document.getElementById('next-page');
+        const pageInfo = document.getElementById('page-info');
+        let progressData = JSON.parse(localStorage.getItem('progressData')) || {};
+        let currentPage = 1;
+        const predefinedNotes = {
+            '2025-05-24': "We're not there yet",
+            '2025-05-25': "We're not there yet",
+            '2025-05-26': "We're not there yet",
+            '2025-05-27': "We're not there yet",
+            '2025-05-28': "We're not there yet",
+            '2025-05-29': "We're not there yet",
+            '2025-05-30': "We're not there yet",
+            '2025-05-31': "We're not there yet",
+            '2025-06-01': "We're not there yet",
+            '2025-06-02': "We're not there yet",
+            '2025-06-03': "We're not there yet",
+            '2025-06-04': "We're not there yet",
+            '2025-06-05': "We're not there yet",
+            '2025-06-06': "We're not there yet",
+            '2025-06-07': "We're not there yet",
+            '2025-06-08': "We're not there yet",
+            '2025-06-09': "We're not there yet",
+            '2025-06-10': "We're not there yet",
+            '2025-06-11': "We're not there yet",
+            '2025-06-12': "We're not there yet",
+            '2025-06-13': "We're not there yet",
+            '2025-06-14': "We're not there yet",
+            '2025-06-15': "We're not there yet",
+            '2025-06-16': "We're not there yet",
+            '2025-06-17': "We're not there yet",
+            '2025-06-18': "We're not there yet",
+            '2025-06-19': "We're not there yet",
+            '2025-06-20': "We're not there yet",
+            '2025-06-21': "We're not there yet",
+            '2025-06-22': "We're not there yet",
+            '2025-06-23': "We're not there yet",
+            '2025-06-24': "We're not there yet",
+            '2025-06-25': "We're not there yet",
+            '2025-06-26': "We're not there yet",
+            '2025-06-27': "We're not there yet",
+            '2025-06-28': "We're not there yet",
+            '2025-06-29': "We're not there yet",
+            '2025-06-30': "We're not there yet",
+            '2025-07-01': "We're not there yet",
+            '2025-07-02': "We're not there yet",
+            '2025-07-03': "We're not there yet",
+            '2025-07-04': "We're not there yet",
+            '2025-07-05': "We're not there yet",
+            '2025-07-06': "We're not there yet",
+            '2025-07-07': "We're not there yet",
+            '2025-07-08': "We're not there yet",
+            '2025-07-09': "We're not there yet",
+            '2025-07-10': "We're not there yet",
+            '2025-07-11': "We're not there yet",
+            '2025-07-12': "We're not there yet"
+        };
+        const predefinedSources = {
+            '2025-05-24': [
+                { url: 'https://easyeda.com', image: 'https://via.placeholder.com/24' },
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-05-25': [
+                { url: 'https://www.infineon.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-05-26': [
+                { url: 'https://easyeda.com', image: 'https://via.placeholder.com/24' },
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' },
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-05-27': [],
+            '2025-05-28': [
+                { url: 'https://www.st.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-05-29': [
+                { url: 'https://www.digikey.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-05-30': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' },
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-05-31': [],
+            '2025-06-01': [
+                { url: 'https://librepcb.org', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-02': [
+                { url: 'https://www.kvaser.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-03': [],
+            '2025-06-04': [
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-05': [
+                { url: 'https://www.digikey.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-06': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-07': [],
+            '2025-06-08': [
+                { url: 'https://www.analog.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-09': [
+                { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-10': [],
+            '2025-06-11': [
+                { url: 'https://www.ansys.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-12': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-13': [
+                { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-14': [],
+            '2025-06-15': [
+                { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-16': [
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-17': [],
+            '2025-06-18': [
+                { url: 'https://www.vector.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-19': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-20': [
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-21': [],
+            '2025-06-22': [
+                { url: 'https://librepcb.org', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-23': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-24': [],
+            '2025-06-25': [
+                { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-26': [
+                { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-27': [],
+            '2025-06-28': [
+                { url: 'https://www.autodesk.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-29': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-06-30': [
+                { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-01': [],
+            '2025-07-02': [
+                { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-03': [
+                { url: 'https://www.vector.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-04': [],
+            '2025-07-05': [
+                { url: 'https://www.analog.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-06': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-07': [],
+            '2025-07-08': [
+                { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-09': [
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-10': [],
+            '2025-07-11': [
+                { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+            ],
+            '2025-07-12': [
+                { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' },
+                { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+            ]
+        };
+        function generateStars() {
+            const numStars = 50;
+            for (let i = 0; i < numStars; i++) {
+                const star = document.createElement('div');
+                star.classList.add('star');
+                star.style.width = `${Math.random() * 3 + 1}px`;
+                star.style.height = star.style.width;
+                star.style.left = `${Math.random() * 100}vw`;
+                star.style.top = `${Math.random() * 100}vh`;
+                star.style.animationDelay = `${Math.random() * 3}s`;
+                document.body.appendChild(star);
+            }
+        }
+        function generateCalendar(page) {
+            calendar.innerHTML = '';
+            const startIndex = (page - 1) * daysPerPage;
+            const endIndex = Math.min(startIndex + daysPerPage, days);
+            if (page === totalPages) {
+                calendar.classList.add('last-page');
+            } else {
+                calendar.classList.remove('last-page');
+            }
+            for (let i = startIndex; i < endIndex; i++) {
+                const date = new Date(startDate);
+                date.setDate(startDate.getDate() + i);
+                const dayDiv = document.createElement('div');
+                dayDiv.classList.add('day');
+                const dateKey = date.toISOString().split('T')[0];
+                if (progressData[dateKey]?.progress && date <= currentDate) {
+                    dayDiv.classList.add('progress');
+                }
+                if (dateKey === currentDate.toISOString().split('T')[0]) {
+                    dayDiv.classList.add('current');
+                }
+                const dayLabel = document.createElement('div');
+                dayLabel.classList.add('day-label');
+                dayLabel.textContent = date.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric' 
+                });
+                const dayNumber = document.createElement('div');
+                dayNumber.textContent = `Day ${i + 1}`;
+                dayDiv.appendChild(dayLabel);
+                dayDiv.appendChild(dayNumber);
+                dayDiv.addEventListener('click', (e) => {
+                    showModal(date, dayDiv, e);
+                });
+                calendar.appendChild(dayDiv);
+            }
+            pageInfo.textContent = `Page ${page}/${totalPages}`;
+            prevPage.disabled = page === 1;
+            nextPage.disabled = page === totalPages;
+        }
+        function showModal(date, dayDiv, event) {
+            const existingModal = document.querySelector('.modal');
+            if (existingModal) existingModal.remove();
+            const modal = document.createElement('div');
+            modal.classList.add('modal');
+            const dateKey = date.toISOString().split('T')[0];
+            const heading = document.createElement('h3');
+            heading.textContent = date.toLocaleDateString('en-US', { 
+                month: 'long', 
+                day: 'numeric', 
+                year: 'numeric' 
+            });
+            const content = document.createElement('textarea');
+            content.classList.add('modal-content');
+            content.readOnly = true;
+            content.textContent = date > currentDate ? "This day hasn't even arrived young man!" : (predefinedNotes[dateKey] || 'No notes for this day');
+            const sources = document.createElement('div');
+            sources.classList.add('modal-sources');
+            if (date <= currentDate) {
+                (predefinedSources[dateKey] || []).forEach(source => {
+                    const link = document.createElement('a');
+                    link.href = source.url;
+                    link.target = '_blank';
+                    const img = document.createElement('img');
+                    img.src = source.image;
+                    link.appendChild(img);
+                    sources.appendChild(link);
+                });
+            }
+            const closeButton = document.createElement('button');
+            closeButton.textContent = 'Close';
+            modal.appendChild(heading);
+            modal.appendChild(content);
+            modal.appendChild(sources);
+            modal.appendChild(closeButton);
+            calendar.appendChild(modal);
+            modal.style.display = 'block';
+            const rect = dayDiv.getBoundingClientRect();
+            const calendarRect = calendar.getBoundingClientRect();
+            modal.style.left = `${rect.left - calendarRect.left + rect.width + 10}px`;
+            modal.style.top = `${rect.top - calendarRect.top}px`;
+            if (rect.left + rect.width + modal.offsetWidth > window.innerWidth) {
+                modal.style.left = `${rect.left - calendarRect.left - modal.offsetWidth - 10}px`;
+            }
+            if (rect.top + modal.offsetHeight > window.innerHeight) {
+                modal.style.top = `${rect.top - calendarRect.top - modal.offsetHeight + rect.height}px`;
+            }
+            closeButton.addEventListener('click', () => {
+                if (date <= currentDate) {
+                    progressData[dateKey] = {
+                        progress: !progressData[dateKey]?.progress,
+                        notes: predefinedNotes[dateKey] || ''
+                    };
+                    localStorage.setItem('progressData', JSON.stringify(progressData));
+                    dayDiv.classList.toggle('progress');
+                }
+                modal.remove();
+            });
+            document.addEventListener('click', (e) => {
+                if (!modal.contains(e.target) && !dayDiv.contains(e.target)) {
+                    modal.remove();
+                }
+            }, { once: true });
+        }
+        prevPage.addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                generateCalendar(currentPage);
+            }
+        });
+        nextPage.addEventListener('click', () => {
+            if (currentPage < totalPages) {
+                currentPage++;
+                generateCalendar(currentPage);
+            }
+        });
+        generateStars();
+        generateCalendar(currentPage);
