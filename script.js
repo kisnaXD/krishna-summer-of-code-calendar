@@ -12,7 +12,7 @@ let currentPage = 1;
 const predefinedNotes = {
     '2025-05-24': "Revision of arrays started \n\n- Merge Sort ✅ \n- Quick Sort ✅ \n- Second Largest Element ✅ \n- Remove duplicates from sorted array ✅",
     '2025-05-25': "Revision of arrays continues \n\n- Rorate Array K Times ✅ \n- Union/Intersection ✅ \n- Moore's Voting Algorithm ✅ \n- Best Time to Buy and Sell Stocks ✅",
-    '2025-05-26': "We're not there yet",
+    '2025-05-26': "Arrays Easy Problems Finished \n\n- Started Leetcoding my progress ✅ \n -Two Sum Problem ✅ \n- Largest Subarray with a Given Sum ✅ \n- Missing Number ✅",
     '2025-05-27': "We're not there yet",
     '2025-05-28': "We're not there yet",
     '2025-05-29': "We're not there yet",
