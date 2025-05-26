@@ -69,9 +69,8 @@ const predefinedSources = {
         { url: 'https://www.youtube.com/watch?v=wvcQg43_V8U&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=18', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-05-26': [
-        { url: 'https://easyeda.com', image: 'https://via.placeholder.com/24' },
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' },
-        { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://www.youtube.com/watch?v=UXDSeD9mN-k&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=21', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' },
+        { url: 'https://leetcode.com/problems/two-sum/submissions/1645323649/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
     ],
     '2025-05-27': [],
     '2025-05-28': [
