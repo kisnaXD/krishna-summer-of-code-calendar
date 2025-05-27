@@ -12,8 +12,8 @@ let currentPage = 1;
 const predefinedNotes = {
     '2025-05-24': "Revision of arrays started \n\n- Merge Sort ✅ \n- Quick Sort ✅ \n- Second Largest Element ✅ \n- Remove duplicates from sorted array ✅",
     '2025-05-25': "Revision of arrays continues \n\n- Rorate Array K Times ✅ \n- Union/Intersection ✅ \n- Moore's Voting Algorithm ✅ \n- Best Time to Buy and Sell Stocks ✅",
-    '2025-05-26': "Arrays Easy Problems Finished \n\n- Started Leetcoding my progress ✅ \n -Two Sum Problem ✅ \n- Largest Subarray with a Given Sum ✅ \n- Missing Number ✅",
-    '2025-05-27': "We're not there yet",
+    '2025-05-26': "Revision of arrays continues \n\n- Started Leetcoding my progress ✅ \n -Two Sum Problem ✅ \n- Largest Subarray with a Given Sum ✅ \n- Missing Number ✅",
+    '2025-05-27': "Arrays Revision Finished \n\n- Watched 2/50 Hours of One Shot ReactJS ✅ \n -Kadane's Algorithm ✅ \n- Dutch National Flag Algorithm ✅ \n- Rearranging Array by sign ✅",
     '2025-05-28': "We're not there yet",
     '2025-05-29': "We're not there yet",
     '2025-05-30': "We're not there yet",
@@ -72,7 +72,11 @@ const predefinedSources = {
         { url: 'https://www.youtube.com/watch?v=UXDSeD9mN-k&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=21', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' },
         { url: 'https://leetcode.com/problems/two-sum/submissions/1645323649/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
     ],
-    '2025-05-27': [],
+    '2025-05-27': [
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=26', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' },
+        { url: 'https://www.youtube.com/watch?v=M9O5AjEFzKw', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' },
+        { url: 'https://leetcode.com/problems/rearrange-array-elements-by-sign/submissions/1646343563/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
+    ],
     '2025-05-28': [
         { url: 'https://www.st.com', image: 'https://via.placeholder.com/24' }
     ],
