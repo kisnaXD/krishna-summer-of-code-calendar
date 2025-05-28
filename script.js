@@ -14,7 +14,7 @@ const predefinedNotes = {
     '2025-05-25': "Revision of arrays continues \n\n- Rorate Array K Times ✅ \n- Union/Intersection ✅ \n- Moore's Voting Algorithm ✅ \n- Best Time to Buy and Sell Stocks ✅",
     '2025-05-26': "Revision of arrays continues \n\n- Started Leetcoding my progress ✅ \n -Two Sum Problem ✅ \n- Largest Subarray with a Given Sum ✅ \n- Missing Number ✅",
     '2025-05-27': "Arrays Revision Finished \n\n- Watched 2/50 Hours of One Shot ReactJS ✅ \n -Kadane's Algorithm ✅ \n- Dutch National Flag Algorithm ✅ \n- Rearranging Array by sign ✅",
-    '2025-05-28': "We're not there yet",
+    '2025-05-28': "Medium Problems in Arrays Started \n\n- Completed a short course on Accounting Fundamentals to refresh previous knowledge ✅ \n -Next Permutation ✅ \n- Leaders in an Array ✅ \n- Largest Consectuvie Sequence ✅",
     '2025-05-29': "We're not there yet",
     '2025-05-30': "We're not there yet",
     '2025-05-31': "We're not there yet",
@@ -78,7 +78,9 @@ const predefinedSources = {
         { url: 'https://leetcode.com/problems/rearrange-array-elements-by-sign/submissions/1646343563/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
     ],
     '2025-05-28': [
-        { url: 'https://www.st.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/longest-consecutive-sequence/solution/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' },
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=26', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' },
+        { url: 'https://www.coursera.org/programs/manipal-education-tguaf/learn/learn-accounting-fundamentals-corporate-finance', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coursera_logo_%282020%29.svg/2560px-Coursera_logo_%282020%29.svg.png' },
     ],
     '2025-05-29': [
         { url: 'https://www.digikey.com', image: 'https://via.placeholder.com/24' }
@@ -274,6 +276,9 @@ function showModal(date, dayDiv, event) {
         link.target = '_blank';
         const img = document.createElement('img');
         img.src = source.image;
+        if(source.image === "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Coursera_logo_%282020%29.svg/2560px-Coursera_logo_%282020%29.svg.png") {
+            img.id = "coursera-source";
+        }
         link.appendChild(img);
         sources.appendChild(link);
     });

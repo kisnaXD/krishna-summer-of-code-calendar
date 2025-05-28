@@ -173,6 +173,9 @@ p {
     height: 24px;
     transition: opacity 0.3s;
 }
+#coursera-source {
+    width: 90px;
+}
 .modal-sources img:hover {
     opacity: 0.8;
 }
