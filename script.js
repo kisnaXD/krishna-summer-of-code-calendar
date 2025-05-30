@@ -16,7 +16,7 @@ const predefinedNotes = {
     '2025-05-27': "Arrays Revision Finished \n\n- Watched 2/50 Hours of One Shot ReactJS ✅ \n -Kadane's Algorithm ✅ \n- Dutch National Flag Algorithm ✅ \n- Rearranging Array by sign ✅",
     '2025-05-28': "Medium Problems in Arrays Started \n\n- Completed a short course on Accounting Fundamentals to refresh previous knowledge ✅ \n -Next Permutation ✅ \n- Leaders in an Array ✅ \n- Largest Consectuvie Sequence ✅",
     '2025-05-29': "Medium Problems in Arrays almost finished \n\n- Made a little bit of progress in the ReactJS One Shot ✅ \n -Set Matrix Zeroes ✅ \n- Rotate a matrix by 90 degrees ✅ \n- Spiral Traversal of a Matrix ✅",
-    '2025-05-30': "We're not there yet",
+    '2025-05-30': "Medium Problems in Arrays finished \n\n -Pascals' Triangle ✅ \n- Majority Element N/3 Times ✅ \n- Count Number of Subarrays with given sum ✅",
     '2025-05-31': "We're not there yet",
     '2025-06-01': "We're not there yet",
     '2025-06-02': "We're not there yet",
@@ -88,8 +88,8 @@ const predefinedSources = {
         { url: 'https://leetcode.com/problems/spiral-matrix/submissions/1648322251/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
     ],
     '2025-05-30': [
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' },
-        { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=35', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' },
+        { url: 'https://leetcode.com/problems/majority-element-ii/submissions/1649230100/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
     ],
     '2025-05-31': [],
     '2025-06-01': [
