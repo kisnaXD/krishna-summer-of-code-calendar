@@ -18,7 +18,7 @@ const predefinedNotes = {
     '2025-05-29': "Medium Problems in Arrays almost finished \n\n- Made a little bit of progress in the ReactJS One Shot ✅ \n -Set Matrix Zeroes ✅ \n- Rotate a matrix by 90 degrees ✅ \n- Spiral Traversal of a Matrix ✅",
     '2025-05-30': "Medium Problems in Arrays finished \n\n -Pascals' Triangle ✅ \n- Majority Element N/3 Times ✅ \n- Count Number of Subarrays with given sum ✅",
     '2025-05-31': "Hard Problems in Arrays started \n\n -3 Sum Problem ✅",
-    '2025-06-01': "We're not there yet",
+    '2025-06-01': "Hard Problems in Arrays continued \n\n -4 Sum Problem ✅ \n- Number of Subarrays with XOR K ✅ \n- Merge Overlapping Intervals ✅",
     '2025-06-02': "We're not there yet",
     '2025-06-03': "We're not there yet",
     '2025-06-04': "We're not there yet",
@@ -96,7 +96,8 @@ const predefinedSources = {
         { url: 'https://leetcode.com/problems/3sum/submissions/1650065463/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' }
     ],
     '2025-06-01': [
-        { url: 'https://librepcb.org', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/merge-intervals/submissions/1651088301/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=39', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-02': [
         { url: 'https://www.kvaser.com', image: 'https://via.placeholder.com/24' }
