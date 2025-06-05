@@ -21,8 +21,8 @@ const predefinedNotes = {
     '2025-06-01': "Hard Problems in Arrays continued \n\n -4 Sum Problem ✅ \n- Number of Subarrays with XOR K ✅ \n- Merge Overlapping Intervals ✅",
     '2025-06-02': "Worked on freelance Project",
     '2025-06-03': "Made progress into ReactJS Oneshot \n\n- Merge Sorted arrays without using extra space ✅ \n- Find repeating and missing elements ✅ \n",
-    '2025-06-04': "We're not there yet",
-    '2025-06-05': "We're not there yet",
+    '2025-06-04': "Worked on freelance Project",
+    '2025-06-05': "Worked on freelance project \n\n- Count Inversions ✅ \n- Reverse Pairs ✅ \n- Maximum Product Subarray ✅",
     '2025-06-06': "We're not there yet",
     '2025-06-07': "We're not there yet",
     '2025-06-08': "We're not there yet",
@@ -104,11 +104,10 @@ const predefinedSources = {
         { url: 'https://leetcode.com/problems/merge-sorted-array/submissions/1653048611/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
         { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=41', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
-    '2025-06-04': [
-        { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
-    ],
+    '2025-06-04': [],
     '2025-06-05': [
-        { url: 'https://www.digikey.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/maximum-product-subarray/submissions/1655107899/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=44', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-06': [
         { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
