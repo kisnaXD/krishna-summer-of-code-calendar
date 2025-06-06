@@ -23,7 +23,7 @@ const predefinedNotes = {
     '2025-06-03': "Made progress into ReactJS Oneshot \n\n- Merge Sorted arrays without using extra space ✅ \n- Find repeating and missing elements ✅ \n",
     '2025-06-04': "Worked on freelance Project",
     '2025-06-05': "Worked on freelance project \n\n- Count Inversions ✅ \n- Reverse Pairs ✅ \n- Maximum Product Subarray ✅",
-    '2025-06-06': "We're not there yet",
+    '2025-06-06': "Started with binary search, arrays finished \n\n- Basics of Binary Search ✅ \n- ReactJS course 3 Hours completed ✅ \n- Finalized freelance project ✅",
     '2025-06-07': "We're not there yet",
     '2025-06-08': "We're not there yet",
     '2025-06-09': "We're not there yet",
@@ -110,7 +110,7 @@ const predefinedSources = {
         { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=44', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-06': [
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=45', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-07': [],
     '2025-06-08': [
