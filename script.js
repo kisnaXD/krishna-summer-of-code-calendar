@@ -24,7 +24,7 @@ const predefinedNotes = {
     '2025-06-04': "Worked on freelance Project",
     '2025-06-05': "Worked on freelance project \n\n- Count Inversions ✅ \n- Reverse Pairs ✅ \n- Maximum Product Subarray ✅",
     '2025-06-06': "Started with binary search, arrays finished \n\n- Basics of Binary Search ✅ \n- ReactJS course 3 Hours completed ✅ \n- Finalized freelance project ✅",
-    '2025-06-07': "We're not there yet",
+    '2025-06-07': "Binary search continued \n\n- Lower and Upper Bound ✅ \n- Floor and Ceiling ✅ \n- Search Element in Sorted Rotated Array ✅",
     '2025-06-08': "We're not there yet",
     '2025-06-09': "We're not there yet",
     '2025-06-10': "We're not there yet",
