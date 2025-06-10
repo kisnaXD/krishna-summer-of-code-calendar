@@ -27,7 +27,7 @@ const predefinedNotes = {
     '2025-06-07': "Binary search continued \n\n- Lower and Upper Bound ✅ \n- Floor and Ceiling ✅ \n- Search Element in Sorted Rotated Array ✅",
     '2025-06-08': "Binary search continued \n\n- Finished React.JS Basics ✅\n- Search Element in Sorted Rotated Array Part II ✅ \n- Minimum Element in Sorted Rotated Array ✅ \n- Find how many times has array been rotated ✅ \n- Single Element in Sorted Duplicated Array ✅",
     '2025-06-09': "Binary search continued \n\n- Find Peak Element ✅\n- Square Root using Binary Search ✅\n Nth Root using Binary Search ✅",
-    '2025-06-10': "We're not there yet",
+    '2025-06-10': "Binary search continued \n\n- Started React.JS Basic projects \n- Koko Eating Bananas ✅\n Minimum Days to make M Bouquets ✅",
     '2025-06-11': "We're not there yet",
     '2025-06-12': "We're not there yet",
     '2025-06-13': "We're not there yet",
@@ -124,7 +124,10 @@ const predefinedSources = {
         { url: 'https://leetcode.com/problems/find-peak-element/submissions/1658933075/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
         { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=55', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
-    '2025-06-10': [],
+    '2025-06-10': [
+        { url: 'https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/submissions/1660186456/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=57', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
+    ],
     '2025-06-11': [
         { url: 'https://www.ansys.com', image: 'https://via.placeholder.com/24' }
     ],
