@@ -30,7 +30,7 @@ const predefinedNotes = {
     '2025-06-10': "Binary search continued \n\n- Started React.JS Basic projects \n- Koko Eating Bananas ✅\n Minimum Days to make M Bouquets ✅",
     '2025-06-11': "Nothing done today",
     '2025-06-12': "Started Major ReactJS Project \n\n- Continued with Binary Search in Answers \n- kth Missing Positive Integer ✅\n- Least Capacity to ship packages within D Days ✅\n- Smallest divisor given a threshold ✅",
-    '2025-06-13': "We're not there yet",
+    '2025-06-13': "Continued with Binary Search in Answers \n\n- Aggressive Cows ✅ \n- Book Allocation ✅ \n- Painters Partition / Split Array Largest Sum ✅",
     '2025-06-14': "We're not there yet",
     '2025-06-15': "We're not there yet",
     '2025-06-16': "We're not there yet",
@@ -134,7 +134,8 @@ const predefinedSources = {
         { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=60', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-13': [
-        { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/split-array-largest-sum/submissions/1663312754', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=63', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-14': [],
     '2025-06-15': [
