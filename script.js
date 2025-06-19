@@ -31,12 +31,12 @@ const predefinedNotes = {
     '2025-06-11': "Nothing done today",
     '2025-06-12': "Started Major ReactJS Project \n\n- Continued with Binary Search in Answers \n- kth Missing Positive Integer ✅\n- Least Capacity to ship packages within D Days ✅\n- Smallest divisor given a threshold ✅",
     '2025-06-13': "Continued with Binary Search in Answers \n\n- Aggressive Cows ✅ \n- Book Allocation ✅ \n- Painters Partition / Split Array Largest Sum ✅",
-    '2025-06-14': "We're not there yet",
-    '2025-06-15': "We're not there yet",
-    '2025-06-16': "We're not there yet",
-    '2025-06-17': "We're not there yet",
-    '2025-06-18': "We're not there yet",
-    '2025-06-19': "We're not there yet",
+    '2025-06-14': "Continued with Binary Search in Answers \n\n- Median of Two Sorted Arrays ✅ \n- Minimise Maximum Distance Between 2 Gas Stations ✅ \n- Kth Element of Two Sorted Arrays ✅",
+    '2025-06-15': "Started Binary Search in 2D Arrays \n\n- Row with Maximum number of Ones ✅ \n- Element Search in fully sorted 2D Matrix ✅ \n- Element Search in Row Wise Sorted 2D Matrix ✅",
+    '2025-06-16': "Nothing done today",
+    '2025-06-17': "Nothing done today",
+    '2025-06-18': "Continued Binary Search in 2D Arrays \n\n- Peak Element in 2D Matrix ✅",
+    '2025-06-19': "Finished Binary Search, Started Strings \n\n- Median in a 2D Matrix Sorted Row wise ✅ \n- Remove Outer Paranthesis ✅ \n- Reverse words in a string ✅ \n- Largest Odd Number ✅ \n- Largest Common Prefix ✅",
     '2025-06-20': "We're not there yet",
     '2025-06-21': "We're not there yet",
     '2025-06-22': "We're not there yet",
@@ -137,19 +137,22 @@ const predefinedSources = {
         { url: 'https://leetcode.com/problems/split-array-largest-sum/submissions/1663312754', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
         { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=63', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
-    '2025-06-14': [],
+    '2025-06-14': [
+        { url: 'https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1664197018/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=67', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
+    ],
     '2025-06-15': [
-        { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/1665338378/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=70', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
-    '2025-06-16': [
-        { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
-    ],
+    '2025-06-16': [],
     '2025-06-17': [],
     '2025-06-18': [
-        { url: 'https://www.vector.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/find-a-peak-element-ii/submissions/1668410280/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
+        { url: 'https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=71', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png' }
     ],
     '2025-06-19': [
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/longest-common-prefix/submissions/1669478951/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
     ],
     '2025-06-20': [
         { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
