@@ -43,10 +43,10 @@ const predefinedNotes = {
     '2025-06-23': "Nothing done today (on a trip)",
     '2025-06-24': "Strings Finished (easy & medium), Starting with Linked Lists \n\n- Sum of Beauty of All Substrings ✅",
     '2025-06-25': "Worked on ReactJS Project",
-    '2025-06-26': "We're not there yet",
-    '2025-06-27': "We're not there yet",
-    '2025-06-28': "We're not there yet",
-    '2025-06-29': "We're not there yet",
+    '2025-06-26': "Started CNN Project, working on data collection",
+    '2025-06-27': "Learnt Basics of LinkedList and Its Traversal",
+    '2025-06-28': "Worked on CNN Project's data collection and ReactJS Project",
+    '2025-06-29': "Linked List Deletion & Insertion Problems Done, Collected more data for CNN Project and made basic conversion scripts",
     '2025-06-30': "We're not there yet",
     '2025-07-01': "We're not there yet",
     '2025-07-02': "We're not there yet",
@@ -164,16 +164,14 @@ const predefinedSources = {
     '2025-06-23': [
         { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
     ],
-    '2025-06-24': [],
-    '2025-06-25': [
-        { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+    '2025-06-24': [
+        { url: 'https://www.youtube.com/watch?v=Nq7ok-OyEpg', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
-    '2025-06-26': [
-        { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
-    ],
+    '2025-06-25': [],
+    '2025-06-26': [],
     '2025-06-27': [],
     '2025-06-28': [
-        { url: 'https://www.autodesk.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://www.youtube.com/watch?v=VaECK03Dz-g', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
     '2025-06-29': [
         { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
