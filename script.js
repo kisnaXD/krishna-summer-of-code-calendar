@@ -47,9 +47,9 @@ const predefinedNotes = {
     '2025-06-27': "Learnt Basics of LinkedList and Its Traversal",
     '2025-06-28': "Worked on CNN Project's data collection and ReactJS Project",
     '2025-06-29': "Linked List Deletion & Insertion Problems Done, Collected more data for CNN Project and made basic conversion scripts",
-    '2025-06-30': "We're not there yet",
-    '2025-07-01': "We're not there yet",
-    '2025-07-02': "We're not there yet",
+    '2025-06-30': "More data collected for CNN Project. Double Linked List Started.",
+    '2025-07-01': "Doubly Linked List Basic Problems",
+    '2025-07-02': "Insertion and Deletion in a Doubly Linked List along with Reversal",
     '2025-07-03': "We're not there yet",
     '2025-07-04': "We're not there yet",
     '2025-07-05': "We're not there yet",
@@ -154,35 +154,32 @@ const predefinedSources = {
     '2025-06-19': [
         { url: 'https://leetcode.com/problems/longest-common-prefix/submissions/1669478951/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'},
     ],
-    '2025-06-20': [
-        { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
+    '2025-06-20': [],
+    '2025-06-21': [
+        { url: 'https://leetcode.com/problems/string-to-integer-atoi/submissions/1671785579/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'}
     ],
-    '2025-06-21': [],
-    '2025-06-22': [
-        { url: 'https://librepcb.org', image: 'https://via.placeholder.com/24' }
-    ],
-    '2025-06-23': [
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
-    ],
+    '2025-06-22': [],
+    '2025-06-23': [],
     '2025-06-24': [
-        { url: 'https://www.youtube.com/watch?v=Nq7ok-OyEpg', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
+        { url: 'https://www.youtube.com/watch?v=Nq7ok-OyEpg', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'},
+        { url: 'https://leetcode.com/problems/sum-of-beauty-of-all-substrings/submissions/1671819695/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png'}
     ],
     '2025-06-25': [],
     '2025-06-26': [],
-    '2025-06-27': [],
-    '2025-06-28': [
-        { url: 'https://www.youtube.com/watch?v=VaECK03Dz-g', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
+    '2025-06-27': [
+        { url: 'https://www.youtube.com/watch?si=9PR1o8OPRWil7fRA&v=Nq7ok-OyEpg&feature=youtu.be', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
+    '2025-06-28': [],
     '2025-06-29': [
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/1680669375/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' },
+        { url: 'https://www.youtube.com/watch?si=9PR1o8OPRWil7fRA&v=Nq7ok-OyEpg&feature=youtu.be', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
-    '2025-06-30': [
-        { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+    '2025-06-30': [],
+    '2025-07-01': [
+        { url: 'https://www.youtube.com/watch?si=9PR1o8OPRWil7fRA&v=Nq7ok-OyEpg&feature=youtu.be', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
-    '2025-07-01': [],
     '2025-07-02': [
-        { url: 'https://www.mathworks.com', image: 'https://via.placeholder.com/24' }
-    ],
+        { url: 'https://www.youtube.com/watch?v=u3WUW2qe6wwhttps://www.youtube.com/watch?v=u3WUW2qe6ww', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}    ],
     '2025-07-03': [
         { url: 'https://www.vector.com', image: 'https://via.placeholder.com/24' }
     ],
