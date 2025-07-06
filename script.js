@@ -49,10 +49,10 @@ const predefinedNotes = {
     '2025-06-29': "Linked List Deletion & Insertion Problems Done, Collected more data for CNN Project and made basic conversion scripts",
     '2025-06-30': "More data collected for CNN Project. Double Linked List Started.",
     '2025-07-01': "Doubly Linked List Basic Problems",
-    '2025-07-02': "Insertion and Deletion in a Doubly Linked List along with Reversal",
-    '2025-07-03': "We're not there yet",
-    '2025-07-04': "We're not there yet",
-    '2025-07-05': "We're not there yet",
+    '2025-07-02': "Insertion and Deletion in a Doubly Linked List",
+    '2025-07-03': "Reversing a Doubly Linked List along with Data resizing for CNN Project",
+    '2025-07-04': "Medium Problems of Singly Linked List along with Augmentation of Dataset for CNN Project \n\n- Middle of a Linked List ✅\n- Reverse a Linked List ✅\n- Detecting a Loop in the Linked List ✅\n- Starting point of loop in Linked List ✅",
+    '2025-07-05': "Medium problems of Singly Linked List continued along with Conversion of Dataset to Binary Format for CNN Project \n\n- Length of a Loop ✅\n- Check if a Linked List is a Palindrome or not ✅\n- Seggrregate Odd and Even Nodes in Linked List ✅",
     '2025-07-06': "We're not there yet",
     '2025-07-07': "We're not there yet",
     '2025-07-08': "We're not there yet",
@@ -179,13 +179,18 @@ const predefinedSources = {
         { url: 'https://www.youtube.com/watch?si=9PR1o8OPRWil7fRA&v=Nq7ok-OyEpg&feature=youtu.be', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
     '2025-07-02': [
-        { url: 'https://www.youtube.com/watch?v=u3WUW2qe6wwhttps://www.youtube.com/watch?v=u3WUW2qe6ww', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}    ],
-    '2025-07-03': [
-        { url: 'https://www.vector.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://www.youtube.com/watch?v=0eKMU10uEDI', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
-    '2025-07-04': [],
+    '2025-07-03': [
+        { url: 'https://www.youtube.com/watch?v=u3WUW2qe6ww', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
+    ],
+    '2025-07-04': [
+        { url: 'https://leetcode.com/problems/linked-list-cycle-ii/submissions/1686380843/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' },
+        { url: 'https://www.youtube.com/watch?v=2Kd0KKmmHFc', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
+    ],
     '2025-07-05': [
-        { url: 'https://www.analog.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/odd-even-linked-list/submissions/1687185286/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' },
+        { url: 'https://www.youtube.com/watch?v=qf6qp7GzD5Q', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
     '2025-07-06': [
         { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
