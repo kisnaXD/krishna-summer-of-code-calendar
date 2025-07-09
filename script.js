@@ -51,11 +51,11 @@ const predefinedNotes = {
     '2025-07-01': "Doubly Linked List Basic Problems",
     '2025-07-02': "Insertion and Deletion in a Doubly Linked List",
     '2025-07-03': "Reversing a Doubly Linked List along with Data resizing for CNN Project",
-    '2025-07-04': "Medium Problems of Singly Linked List along with Augmentation of Dataset for CNN Project \n\n- Middle of a Linked List ✅\n- Reverse a Linked List ✅\n- Detecting a Loop in the Linked List ✅\n- Starting point of loop in Linked List ✅",
+    '2025-07-04': "Started Medium Problems of Singly Linked List along with Augmentation of Dataset for CNN Project \n\n- Middle of a Linked List ✅\n- Reverse a Linked List ✅\n- Detecting a Loop in the Linked List ✅\n- Starting point of loop in Linked List ✅",
     '2025-07-05': "Medium problems of Singly Linked List continued along with Conversion of Dataset to Binary Format for CNN Project \n\n- Length of a Loop ✅\n- Check if a Linked List is a Palindrome or not ✅\n- Seggrregate Odd and Even Nodes in Linked List ✅",
-    '2025-07-06': "We're not there yet",
-    '2025-07-07': "We're not there yet",
-    '2025-07-08': "We're not there yet",
+    '2025-07-06': "Medium problems of Singly Linked List finished \n\n- Remove Nth Node from Back ✅\n- Sorting a Linked List using Merge Sort ✅\n- Sorting a Linked List only containing 0 1 and 2 ✅\n- Intersection of Y Linked List ✅\n- Adding 1 to a Linked List ✅\n- Adding two Linked Lists ✅ ",
+    '2025-07-07': "Finished Medium problems of Doubly Linked List \n\n- Deleting all occurences of a Key in Linked List  ✅\n- Finding pairs with a given sum in a sorted doubly linked list ✅\n- Deleting duplicated nodes from a sorted doubly linked list ✅",
+    '2025-07-08': "Started Hard problems of Doubly Linked List \n\n- Reversing Nodes in K Group Size ✅\n- Rotating a Linked List ✅\n- Merging Two Sorted Linked Lists ✅\n- Merging K Sorted Linked Lists ✅\n- Flattening out a Linked List ✅",
     '2025-07-09': "We're not there yet",
     '2025-07-10': "We're not there yet",
     '2025-07-11': "We're not there yet",
@@ -193,11 +193,15 @@ const predefinedSources = {
         { url: 'https://www.youtube.com/watch?v=qf6qp7GzD5Q', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
     '2025-07-06': [
-        { url: 'https://www.ti.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/add-two-numbers/submissions/1688609173/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' },
+        { url: 'https://www.youtube.com/watch?v=XmRrGzR6udg', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
-    '2025-07-07': [],
+    '2025-07-07': [
+        { url: 'https://www.youtube.com/watch?si=AsZoNUoewetsBjr0&v=YJKVTnOJXSY&feature=youtu.be', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
+    ],
     '2025-07-08': [
-        { url: 'https://fsaeonline.com', image: 'https://via.placeholder.com/24' }
+        { url: 'https://leetcode.com/problems/merge-k-sorted-lists/submissions/1691018970/', image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png' },
+        { url: 'https://www.youtube.com/watch?v=ykelywHJWLg', image: 'https://www.pngplay.com/wp-content/uploads/8/Youtube-Red-Logo-PNG-Clipart-Background.png'}
     ],
     '2025-07-09': [
         { url: 'https://github.com', image: 'https://via.placeholder.com/24' }
